@@ -338,6 +338,9 @@ def loop3():
             heal2 = pyautogui.locateOnScreen("BUTTON/heal2.png", confidence = 0.82)
             check = pyautogui.locateOnScreen("BUTTON/check.png", confidence = 0.93)
             raund1 = pyautogui.locateOnScreen("BUTTON/raund1.png", confidence = 0.82)
+            raund2 = pyautogui.locateOnScreen("BUTTON/raund22.png", confidence = 0.98)
+            raund3 = pyautogui.locateOnScreen("BUTTON/raund33.png", confidence = 0.98)     
+
 
 
 
@@ -425,6 +428,8 @@ def loop4():
     while running:
         if not pause:
             raund1 = pyautogui.locateOnScreen("BUTTON/raund1.png", confidence = 0.82)
+            raund2 = pyautogui.locateOnScreen("BUTTON/raund22.png", confidence = 0.98)
+            raund3 = pyautogui.locateOnScreen("BUTTON/raund33.png", confidence = 0.98)  
 
 
 
