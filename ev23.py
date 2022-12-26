@@ -387,11 +387,31 @@ def loop3():
                 pydirectinput.keyDown('1')
                 time.sleep(random.uniform(0.3,0.8))
                 pydirectinput.keyUp('1')
-                time.sleep(random.uniform(1,1.5))
+                time.sleep(random.uniform(0.3,0.8))
                 pydirectinput.keyDown('f9')
                 time.sleep(random.uniform(0.3,0.8))
                 pydirectinput.keyUp('f9')
                 time.sleep(random.uniform(0.3,0.8)) 
+            if raund2:
+                print("бой! 2 раунд")
+                pydirectinput.keyDown('2')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyUp('2')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyDown('f9')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyUp('f9')
+                time.sleep(random.uniform(1.4,2.5))
+            if raund3:
+                print("бой! 3 раунд")
+                pydirectinput.keyDown('2')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyUp('2')
+                time.sleep(random.uniform(0.4,0.6))
+                pydirectinput.keyDown('f9')
+                time.sleep(random.uniform(0.3,0.6))
+                pydirectinput.keyUp('f9')
+                time.sleep(random.uniform(1.4,2.5))
                 
                 
             timeStart = datetime.now()
@@ -417,15 +437,36 @@ def loop4():
             
             
             if raund1:
-                print("бой! 11 раунд")
+                print("бой! 1 раунд")
+                logging.debug('бой! 1 раунд котэ')
                 pydirectinput.keyDown('1')
                 time.sleep(random.uniform(0.3,0.8))
                 pydirectinput.keyUp('1')
-                time.sleep(random.uniform(1,1.5))
+                time.sleep(random.uniform(0.3,0.8))
                 pydirectinput.keyDown('f9')
                 time.sleep(random.uniform(0.3,0.8))
                 pydirectinput.keyUp('f9')
                 time.sleep(random.uniform(0.3,0.8)) 
+            if raund2:
+                print("бой! 2 раунд")
+                pydirectinput.keyDown('2')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyUp('2')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyDown('f9')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyUp('f9')
+                time.sleep(random.uniform(1.4,2.5))
+            if raund3:
+                print("бой! 3 раунд")
+                pydirectinput.keyDown('2')
+                time.sleep(random.uniform(0.3,0.8))
+                pydirectinput.keyUp('2')
+                time.sleep(random.uniform(0.4,0.6))
+                pydirectinput.keyDown('f9')
+                time.sleep(random.uniform(0.3,0.6))
+                pydirectinput.keyUp('f9')
+                time.sleep(random.uniform(1.4,2.5))
 
 
 
